@@ -1,8 +1,8 @@
 public class Questionary {
-    public static final String title = "welcome";
+    public static final String TITLE = "welcome";
 
     public static void main(String[] args) {
-        System.out.println(title);
+        System.out.println(TITLE);
         sayHelloTo("Java");
         System.out.println(monAge(new int[]{17, 48, 70, 72}));
     }
