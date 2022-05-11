@@ -4,7 +4,7 @@ public class Questionary {
     public static void main(String[] args) {
         System.out.println(TITLE);
         sayHelloTo("Java");
-        System.out.println(monAge(new int[]{17, 48, 70, 72}));
+        System.out.println("l'âge moyen des participants est de " + monAge(new int[]{17, 48, 70, 72}) + " ans");
     }
 
     private static void sayHelloTo(String recipe) {
