@@ -3,12 +3,12 @@ public class Questionary {
 
     public static void main(String[] args) {
         System.out.println(title);
-        sayHelloTo("hello");
+        sayHelloTo("Java");
         System.out.println(monAge(new int[]{17, 48, 70, 72}));
     }
 
     private static void sayHelloTo(String recipe) {
-        System.out.println(recipe + "-" + "world");
+        System.out.println("hello - " + recipe);
     }
 
     private static int monAge(int[] ages) {
